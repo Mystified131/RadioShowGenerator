@@ -139,6 +139,6 @@ for ctr in range(100):
     outstr = 'C:\\Users\\mysti\\Coding\\RadioShowGenerator\\newsoundguitar' + str(ctr) + tracknam + ".wav"
     shutil.copy(contentgit[y], outstr)
 
-call(["python", "RadioShowProcessor.py"])
+call(["python", "RadioShowProcessorShorter.py"])
 
 ## THE GHOST OF THE SHADOW ##
