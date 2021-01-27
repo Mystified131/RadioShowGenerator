@@ -312,7 +312,7 @@ outfile.close()
 
 ounm = "C:\\Users\\mysti\\Desktop\\AutoProd\\Radio\\RadioShowTracklist_" + tim + ".txt"
 
-onm = "RadioShowTracklist_" + tim + ".txt""
+onm = "RadioShowTracklist_" + tim
 
 outfile = open(ounm, "w")
 
