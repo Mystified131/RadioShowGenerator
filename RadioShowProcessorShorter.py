@@ -150,7 +150,7 @@ for ctr in range(50):
 
         newAudiof = newAudioe.overlay(newAudiod)
 
-        rep = random.randrange(4,6)
+        rep = random.randrange(8,12)
 
         newAudiog = newAudiof * rep
 
