@@ -282,7 +282,7 @@ for ctr in range(700):
         newAudionear = newAudionear.fade_in(5000)
         newAudionear = newAudionear.fade_out(15000)
 
-        oufil = "C:\\Users\\mysti\\Desktop\\AutoProd\\Radio\\Track" + tim + "." + str((suctot + 1)/1000) + ".wav"
+        oufil = "C:\\Users\\mysti\\Desktop\\AutoProd\\Radio\\Track" + tim + "." + str((suctot + 1)/100) + ".wav"
         newAudionear.export(oufil, format="wav")
 
         plst.append(oufil)
